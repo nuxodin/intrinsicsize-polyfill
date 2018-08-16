@@ -1,5 +1,7 @@
 # intrinsicsize-polyfill
-This is a polyfill for the proposed intrinsicsize-attribute
+This is a polyfill for the proposed intrinsicsize-attribute.
+- Under 1kb
+- supports dynamicly added html
 
 ## Demo at
 https://codepen.io/tobias_buschor/pen/jpjdrz
