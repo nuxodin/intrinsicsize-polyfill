@@ -12,7 +12,7 @@ https://codepen.io/tobias_buschor/pen/jpjdrz
 Just at the script
 
 ```html
-<script src="https://rawgit.com/nuxodin/intrinsicsize-polyfill/master/min.js?y1"></script>  
+<script src="https://rawgit.com/nuxodin/intrinsicsize-polyfill/master/min.js"></script>  
 ```
 
 and write Html like this  
