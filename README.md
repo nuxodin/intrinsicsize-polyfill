@@ -8,12 +8,12 @@ https://codepen.io/tobias_buschor/pen/jpjdrz
 Just at the script
 
 ```html
-    <script src="https://rawgit.com/nuxodin/intrinsicsize-polyfill/master/min.js?y1" target=_blank></script>  
+<script src="https://rawgit.com/nuxodin/intrinsicsize-polyfill/master/min.js?y1"></script>  
 ```
 
 and write Html like this  
 ```html
-    <img src="https://imageshack.com/a/img923/1476/HFfqqe.jpg" intrinsicsize="1920x1281" style="width:100%">  
+<img src="https://imageshack.com/a/img923/1476/HFfqqe.jpg" intrinsicsize="1920x1281" style="width:100%">  
 ```
 
 ## Proposal
