@@ -6,7 +6,7 @@ var listeners = [],
     root = document.documentElement,
     Observer;
 
-c1_onElement = function(selector, connectedCallback/*, disconnectedCallback*/) {
+window.c1_onElement = function(selector, connectedCallback/*, disconnectedCallback*/) {
     var listener = {
         selector: selector,
         //connectedCallback: connectedCallback,
