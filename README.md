@@ -2,6 +2,7 @@
 This is a polyfill for the proposed intrinsicsize-attribute.
 - Supports dynamicly added HTML
 - Under 1kb gzip-compressed
+- Works with images, not videos
 
 ## Demo at
 https://codepen.io/tobias_buschor/pen/jpjdrz
