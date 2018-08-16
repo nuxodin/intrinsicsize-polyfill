@@ -25,3 +25,5 @@ https://github.com/ojanvafai/intrinsicsize-attribute
 ## Browsers implementation status
 In Development for chromium
 https://www.chromestatus.com/feature/4704436815396864
+
+## Improvements welcome!
