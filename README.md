@@ -23,7 +23,7 @@ and write Html like this
 https://github.com/ojanvafai/intrinsicsize-attribute  
 
 ## Browsers implementation status
-In Development for chromium
+In development for chromium
 https://www.chromestatus.com/feature/4704436815396864
 
 ## Improvements welcome!
