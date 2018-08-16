@@ -6,16 +6,14 @@
 		root = document.documentElement,
 		Observer;
 	if (!HTMLElement.prototype.matches) HTMLElement.prototype.matches = HTMLElement.prototype.msMatchesSelector;
-	window.c1_onElement = function(selector, connectedCallback/*, disconnectedCallback*/) {
+	window.c1_onElement = function(selector, connectedCallback) {
 		var listener = {
 			selector: selector,
-			//connectedCallback: connectedCallback,
 			connectedCallback: function(el){ // neu, ok?
 				requestAnimationFrame(function(){
 					connectedCallback(el);
 				});
 			},
-			//disconnectedCallback: disconnectedCallback,
 			elements: new WeakMap(), // WeakSet would be better, but no support in ie11
 		};
 
@@ -73,6 +71,7 @@
 // main logic
 
 !function(){ 'use strict';
+	if ('intrinsincsize' in HTMLImageElement.prototype) return; // does this work?
 
 	var listener = function(){
 		this.removeEventListener('load',listener);
