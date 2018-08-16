@@ -5,7 +5,7 @@
 	var listeners = [],
 		root = document.documentElement,
 		Observer;
-	if (!HTMLElement.prototype.matches) HTMLElement.prototype.matches = msMatchesSelector;
+	if (!HTMLElement.prototype.matches) HTMLElement.prototype.matches = HTMLElement.prototype.msMatchesSelector;
 	window.c1_onElement = function(selector, connectedCallback/*, disconnectedCallback*/) {
 		var listener = {
 			selector: selector,
