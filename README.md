@@ -9,7 +9,7 @@ This is a polyfill for the proposed intrinsicsize-attribute.
 https://codepen.io/tobias_buschor/pen/jpjdrz
 
 ## Ussage
-Just at the script
+Just add the script
 
 ```html
 <script src="https://rawgit.com/nuxodin/intrinsicsize-polyfill/master/min.js"></script>  
