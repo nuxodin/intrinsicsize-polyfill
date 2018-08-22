@@ -27,4 +27,9 @@ https://github.com/ojanvafai/intrinsicsize-attribute
 In development for chromium
 https://www.chromestatus.com/feature/4704436815396864
 
+## How it works
+The script observes new elements with MutationObserver.
+If its a image with the attribute "intrinsicsize", the source is replaced with a data-url-SVG using the same size.
+When the original Image loads, its source will change to it.
+
 ## Improvements welcome!
