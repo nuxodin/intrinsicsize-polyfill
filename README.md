@@ -28,8 +28,8 @@ When the original Image loads, its source will change to it.
 ## Browsers implementation status
 In development for chromium
 https://www.chromestatus.com/feature/4704436815396864
-Firefox is playing with it?
-https://bugzilla.mozilla.org/show_bug.cgi?id=1487247
-https://bugzilla.mozilla.org/show_bug.cgi?id=1487250
+Firefox is playing with it  
+https://bugzilla.mozilla.org/show_bug.cgi?id=1487247  
+https://bugzilla.mozilla.org/show_bug.cgi?id=1487250  
 
 ## Improvements welcome!
