@@ -26,7 +26,7 @@ If its a image with the attribute "intrinsicsize", the source is replaced with a
 When the original Image loads, its source will change to it. 
 
 ## Browsers implementation status
-Behind a flag in chrome
+Behind a flag in chrome  
 https://www.chromestatus.com/feature/4704436815396864  
 Firefox is playing with it  
 https://bugzilla.mozilla.org/show_bug.cgi?id=1487247  
