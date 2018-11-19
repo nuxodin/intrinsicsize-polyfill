@@ -15,7 +15,7 @@ Just add the script
 <script src="https://rawgit.com/nuxodin/intrinsicsize-polyfill/master/min.js"></script>  
 ```
 
-and write Html like this  
+and write HTML like this  
 ```html
 <img src="https://imageshack.com/a/img923/1476/HFfqqe.jpg" intrinsicsize="1920x1281" style="width:100%">  
 ```
