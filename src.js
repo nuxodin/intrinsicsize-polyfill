@@ -87,7 +87,7 @@
 		el.c1RealSrc = el.src;
 		el.addEventListener('load',listener);
 		el.addEventListener('error',listener); // not working in ie 11, bad browser
-		el.src = 'data:image/svg+xml;utf8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="'+width+'" height="'+height+'" style="background:rgba(200,200,200,.1);"></svg>');
+		el.src = 'data:image/svg+xml;utf8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="'+width+'" height="'+height+'"></svg>');
 	}
 	c1_onElement('img[intrinsicsize]',render);
 
