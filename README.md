@@ -1,3 +1,6 @@
+Note! The specification is likely to change. 
+Read more here: https://github.com/WICG/intrinsicsize-attribute/issues/16
+
 # intrinsicsize-polyfill
 This is a polyfill for the proposed intrinsicsize-attribute. (https://github.com/ojanvafai/intrinsicsize-attribute)
 - Supports dynamicly added HTML
