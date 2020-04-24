@@ -1,4 +1,4 @@
-Note! The specification is likely to change. 
+Note! The specification has changed, they found a mutch better solution which is alrady implemented in most browsers. 
 Read more here: https://github.com/WICG/intrinsicsize-attribute/issues/16
 
 # intrinsicsize-polyfill
